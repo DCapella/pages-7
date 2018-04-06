@@ -1,0 +1,28 @@
+{
+  "name": "pages-7",
+  "version": "1.0.0",
+  "description": "Another Node App.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DCapella/pages-7.git"
+  },
+  "author": "David Capella",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DCapella/pages-7/issues"
+  },
+  "homepage": "https://github.com/DCapella/pages-7#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "mongodb": "^3.0.5"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.3"
+  }
+}
